@@ -6,3 +6,11 @@ professor and my classmates was to load color.cgi with a value of
 "chartreuse." :)  It's actually a very simple script, guys.
 
 jdb
+
+# Set up
+chmod u+x htdocs/*.cgi
+
+```
+curl -d "color=green" -X POST http://localhost:4000/color.cgi
+curl http://localhost:4000/color.cgi?color=red
+```

@@ -1,0 +1,5 @@
+client
+httpd
+httpd.dSYM
+a.out
+foo.c
